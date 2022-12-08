@@ -1,18 +1,9 @@
-// function Calcular(){
-     document.getElementById("Money").innerHTML.value
-     document.getElementById("div1").innerHTML.value
-     document.getElementById("div2").innerHTML.value
-
-     var km
-     var L
-     var resposta
-    
-    let km = 20
-     let l = 1
-
-
-   
-// 
+function LitrosDeCombustivel(){
+     let dinheiro = document.getElementById("dinheiro").value
+     let litros = (parseFloat(dinheiro))/5
+     let km = litros * 20
+     document.getElementById("resposta").innerHTML = "Você Pode Comprar " + litros + " Litros de Gasolina e andar " + km + "Km"
+ }
 
 
 
