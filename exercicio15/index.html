@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> EX</title>
+    <title> EX15 </title>
 
 </head>
 <body>
     
-
+    <script>   
+    
+        function mostra(texto) {
+            document.write(texto);
+        }
+        var nome =(prompt("Digite seu Nome:"));
+        var idade = parseInt(prompt("Digite sua idade: "));
+    
+            if(idade < 13) {
+                mostra("Você Ainda é criança! ! !");
+    
+                if( idade == 13,14,15,16,17,18,19,20) {
+                    mostra("Você é Adolescente! ! !");
+                }    
+                else if( idade > 20) {
+                    mostra("Você é Adulto! ! !");
+                } 
+                   
+            }
+    
+    </script> 
 </body>
 </html>
+<!--Desenvolva um programa para ler o nome e a idade de um indivíduo e imprimir “criança”, se a idade for menor ou igual a 13 anos, “adolescente”, no caso de idade estar entre 13 e 20 anos, e “adulto”, se for mais velho JAVASCRIPT
