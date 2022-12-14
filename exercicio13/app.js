@@ -1,6 +1,6 @@
-function maiorMenor(){
-    document.getElementById("num").innerHTML
+// function maiorMenor(){
+//     document.getElementById("num").innerHTML
    
-int Idade =0; 
-    }
-}
+// int Idade =0; 
+//     }
+// }

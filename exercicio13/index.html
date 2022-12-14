@@ -12,31 +12,18 @@
 
     <script>
     
-        function pulaLinha() {
-            document.write("<br>");
-        }
-    
         function mostra(texto) {
             document.write(texto);
         }
     
-        var idade = parseInt(prompt("Digite sua idade"));
+        var idade = parseInt(prompt("Digite sua idade: "));
     
         if(idade < 18) {
-            mostra("Você não tem idade para dirigir.");
+            mostra("Você não é de Menor! ! !");
         }
     
             else if(idade >= 18) {
-                var carteira = prompt("Você Tem carta ?   Digite Sim  ou Não ");
-    
-                if(carteira == "N" || carteira == "n") {
-                    mostra("Você ainda não pode dirigir, pois não tem habilitação! ! !");
-                }    
-    
-                    else if(carteira == "S" || carteira == "s") {
-                        mostra("Parabéns! Você está habilitado a dirigir! ! ! :> ");
-                    }
-    
+                mostra("Você é  de Maior! ! !")
             }
     
     </script> 
